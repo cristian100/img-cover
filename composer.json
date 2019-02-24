@@ -1,8 +1,22 @@
 {
     "name": "cristian100/img-cover",
+    "type": "library",
+    "description": "Allows objects with class imgCover to resize as it was a background cover effect on its container.",
+    "keywords": ["css", "background", "cover", "img"],
+    "license": "MIT",
     "autoload": {
         "psr-0" : {
             "cristian100\\img-cover" : "src"
+        }
+    }
+    "authors": [
+        {
+            "name": "Cristian Antonio Gonzalez Cienfuegos"
+        }
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x-dev"
         }
     }
 }
