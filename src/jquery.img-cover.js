@@ -11,7 +11,7 @@
    */
   function imgCoverSetup() {
     $('.imgCover').once('imgCover').each(function(i, obj) {
-      imgCoverResize(obj);
+      imgCoverSize(obj);
     });
   }
 
