@@ -25,7 +25,7 @@
 
     // Object original dimensions.
     var oWidth = parseInt($(obj).attr('data-width'), 10);
-    var oHeight = parseInt($(obj).attr('data-width'), 10);
+    var oHeight = parseInt($(obj).attr('data-height'), 10);
 
     // Resulting dimensions.
     var rWidth = wWidth;
@@ -35,11 +35,8 @@
       rHeight = wHeight;
       rWidth = parseInt(wHeight/oHeight*oWidth, 10);
     }
-
-    $(obj).css({
-      width: rWidth,
-      height: rHeight
-    });
+    $(obj).find('> *:first').width(rWidth);
+    $(obj).find('> *:first').height(rHeight);
   }
 
   /**
