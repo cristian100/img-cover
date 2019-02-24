@@ -1,6 +1,6 @@
 {
     "name": "cristian100/img-cover",
-    "type": "library",
+    "type": "drupal-library",
     "description": "Allows objects with class imgCover to resize as it was a background cover effect on its container.",
     "keywords": ["css", "background", "cover", "img"],
     "license": "MIT",
