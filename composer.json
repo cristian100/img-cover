@@ -1,0 +1,8 @@
+{
+    "name": "cristian100/img-cover",
+    "autoload": {
+        "psr-0" : {
+            "cristian100\\img-cover" : "src"
+        }
+    }
+}
