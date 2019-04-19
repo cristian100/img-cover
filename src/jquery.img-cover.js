@@ -17,6 +17,15 @@
   }
 
   /**
+   * Sizes all object with class imgCover.
+   */
+  function imgCoverReset() {
+    $('.imgCover').each(function(i, obj) {
+      imgCoverSize(obj);
+    });
+  }
+
+  /**
    * Sizes properly an object given.
    */
   function imgCoverSize(obj) {
@@ -53,7 +62,7 @@
   $(window).on('resize', function () {
     clearTimeout(resizeTimer);
 
-    setTimeout(imgCoverSetup, 250);
+    setTimeout(imgCoverReset, 250);
   });
 
 })(jQuery);
