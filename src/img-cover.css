@@ -5,7 +5,7 @@
   height: 100%;
 }
 
-.imgCover > *{
+.imgCover > *.ready{
   position: absolute;
   top: 50%;
   left: 50%;
