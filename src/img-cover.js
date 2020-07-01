@@ -2,7 +2,7 @@
  * img-cover - Makes an object size as cover effect.
  * Copyright 2019 Cristian Antonio Gonzalez Cienfuegos All Rights Reserved
  * Website: http://d4all.mx/libraries/img-cover
- * Version 1.0
+ * Version 1.0.3
  */
 (function ($) {
   "use strict";
