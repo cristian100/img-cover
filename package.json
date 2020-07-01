@@ -1,6 +1,6 @@
 {
   "name": "img-cover",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This library allows resize an object as it had a cover background effect on its container.",
   "main": "index.js",
   "dependencies": {
