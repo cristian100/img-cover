@@ -1,0 +1,31 @@
+{
+  "name": "img-cover",
+  "version": "1.0.1",
+  "description": "This library allows resize an object as it had a cover background effect on its container.",
+  "main": "index.js",
+  "dependencies": {
+    "np": "^6.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian100/img-cover.git"
+  },
+  "keywords": [
+    "img",
+    "tag",
+    "cover",
+    "background",
+    "css",
+    "css3"
+  ],
+  "author": "Cristian Gonzalez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cristian100/img-cover/issues"
+  },
+  "homepage": "https://github.com/cristian100/img-cover#readme"
+}
